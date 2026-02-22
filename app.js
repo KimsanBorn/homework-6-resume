@@ -3,14 +3,14 @@ const { engine } = require('express-handlebars');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.engine(
   'handlebars',
   engine({
     defaultLayout: 'main',
     extname: '.handlebars',
-    partialsDir: path.join(__dirname, 'views', 'partials'),
+    partialsDir: ['views/partials/'],
   helpers: {
     section(name, options) {
       if (!this._sections) this._sections = {};
