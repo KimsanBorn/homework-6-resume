@@ -77,7 +77,7 @@ app.get('/', (req, res) => {
       },
       {
         name: 'Laravel HR system',
-        description: 'On going laravel project to keep track of employee attendance(Checkin and Checkout) with an employee management that allow HR and Manager manger their department and employee.',
+        description: 'On going laravel project to keep track of employee attendance(Checkin and Checkout) with an employee management system that allow HR and Manager to manage their department and employee.',
       },
     ],
     hobbies: ['Reading Manga', 'Watching Youtube', 'Gaming']
